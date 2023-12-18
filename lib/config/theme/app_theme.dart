@@ -17,10 +17,14 @@ class AppTheme {
             'Selected color must be less than ${colorList.length - 1}');
 
   ThemeData getTheme() => ThemeData(
-      useMaterial3: true,
-      colorSchemeSeed: colorList[selectedColor],
-      appBarTheme: AppBarTheme(
-        centerTitle: false,
-        backgroundColor: colorList[selectedColor],
-      ));
+        useMaterial3: true,
+        colorSchemeSeed: colorList[selectedColor],
+        appBarTheme: AppBarTheme(
+          centerTitle: false,
+          backgroundColor: colorList[selectedColor],
+        ),
+        floatingActionButtonTheme: FloatingActionButtonThemeData(
+          backgroundColor: colorList[selectedColor],
+        ),
+      );
 }
