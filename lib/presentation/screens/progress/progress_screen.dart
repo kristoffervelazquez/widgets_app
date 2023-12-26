@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 class ProgressScreen extends StatelessWidget {
@@ -68,8 +66,8 @@ class _ControlledProgressIndicator extends StatelessWidget {
                 const SizedBox(width: 20),
                 Expanded(
                     child: LinearProgressIndicator(
-                      value: progressValue,
-                    ))
+                  value: progressValue,
+                ))
               ],
             ),
           );

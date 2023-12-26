@@ -47,7 +47,7 @@ const appMenuItems = <MenuItem>[
   MenuItem(
     title: 'Animated container',
     subtitle: 'Stateful widget animado',
-    link: '/progress',
+    link: '/animated',
     icon: Icons.animation,
   ),
   MenuItem(
