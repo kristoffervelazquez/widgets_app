@@ -15,6 +15,12 @@ class MenuItem {
 
 const appMenuItems = <MenuItem>[
   MenuItem(
+    title: 'Counter Screen',
+    subtitle: 'Counter Screen',
+    link: '/counter',
+    icon: Icons.add,
+  ),
+  MenuItem(
     title: 'Botones',
     subtitle: 'Varios botones en flutter',
     link: '/buttons',
@@ -67,5 +73,5 @@ const appMenuItems = <MenuItem>[
     subtitle: 'Campo de pruebas de widgets',
     link: '/test',
     icon: Icons.science_outlined,
-  )
+  ),
 ];
