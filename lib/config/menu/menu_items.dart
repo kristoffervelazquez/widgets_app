@@ -15,6 +15,12 @@ class MenuItem {
 
 const appMenuItems = <MenuItem>[
   MenuItem(
+    title: 'Theme Changer',
+    subtitle: 'Theme Changer',
+    link: '/theme_changer',
+    icon: Icons.color_lens_outlined,
+  ),
+  MenuItem(
     title: 'Counter Screen',
     subtitle: 'Counter Screen',
     link: '/counter',
